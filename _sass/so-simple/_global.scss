@@ -76,7 +76,7 @@
   font-family: $title-font-family;
   padding: 0;
   @include fluid-type($min-vw, $max-vw, $h2-min, $h2-max);
-  font-weight: bold;
+  font-weight: 700;
 
   a {
     text-decoration: none;
@@ -87,7 +87,7 @@
   margin-bottom: 1em;
   font-family: $description-font-family;
   @include fluid-type($min-vw, $max-vw, $h5-min, $h5-max);
-  font-weight: normal;
+  font-weight: 400;
   font-style: italic;
 }
 
