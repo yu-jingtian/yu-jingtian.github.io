@@ -83,29 +83,59 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+
 # Front Matter Defaults
 defaults:
-  # Posts defaults
+  # Post defaults
   - scope:
       path: "_posts"
       type: posts
     values:
       layout: post
+      comments: true
+      share: true
+  # Recipe defaults
+  - scope:
+      path: "_recipes"
+      type: recipes
+    values:
+      layout: post
+      comments: true
       share: true
 
 # Site Author
 author:
-  name:
-  picture:
+  name: Jingtian Yu
+  picture: /images/michael-rose-photo.jpg
   email:
-  twitter:
+  twitter: 
   links:
-    - title:
-      url:
-      icon:
+    - title: Twitter
+      url: 
+      icon: fab fa-twitter-square
+    - title: Instagram
+      url: 
+      icon: fab fa-instagram
+    - title: GitHub
+      url: 
+      icon: fab fa-github-square
 
 # Footer Links
 footer_links:
+  - title: Twitter
+    url: 
+    icon: fab fa-twitter-square
+  - title: Instagram
+    url: 
+    icon: fab fa-instagram
+  - title: GitHub
+    url: https://github.com/yu-jingtian
+    icon: fab fa-github-square
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
