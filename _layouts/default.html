@@ -7,6 +7,16 @@
 -->
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
   {% include head.html %}
+    
+  <head>
+    {% include html_meta %}
+    <title>How to use MathJax in Jekyll generated Github pages -- Haixing Hu's Homepage</title>
+    <link href="/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    {% if page.use_math %}
+      {% include mathjax_support %}
+    {% endif %}
+  </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {% if page.entries_layout == 'grid' %}page--wide{% endif %} {{ page.title | slugify }}">
     {% include skip-links.html %}
