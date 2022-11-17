@@ -42,7 +42,9 @@ the `ams` and `all` setting for `mathjax.tags`.
 
 
 $$
+\begin{equation}
 \mathbf{X}_{n,p} = \mathbf{A}_{n,k} \mathbf{B}_{k,p}    \label{test}
+\end{equation}
 $$
 
 
@@ -52,7 +54,9 @@ An example using the `{align}` LaTeX environment is below.  The first equation h
 
 
 $$
+\begin{align}
 (x + y) (x - y) &= x^2 + xy - xy + y^2   \notag \\
     &= x^2 - y^2
+\end{align}
 $$
 
