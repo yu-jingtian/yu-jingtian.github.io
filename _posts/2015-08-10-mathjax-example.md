@@ -32,20 +32,20 @@ $a$, $b$, and $c$ are variables.
 
 Here is a block rendering with no default equation numbering:
 
-$$
+\begin{equation}
 \frac{1}{n^{2}}
-$$
+\end{equation}
 
 And, below is a block using the `\begin{equation}` and
 `\end{equation}` LaTeX delimiters.  This equation will be numbered in
 the `ams` and `all` setting for `mathjax.tags`.
 
 
-$$
+
 \begin{equation}
 \mathbf{X}_{n,p} = \mathbf{A}_{n,k} \mathbf{B}_{k,p}    \label{test}
 \end{equation}
-$$
+
 
 
 If equation numbering is turned on, we should see an equation number here: $\eqref{test}$.
@@ -53,10 +53,10 @@ If equation numbering is turned on, we should see an equation number here: $\eqr
 An example using the `{align}` LaTeX environment is below.  The first equation has a `\notag` directive.
 
 
-$$
+
 \begin{align}
 (x + y) (x - y) &= x^2 + xy - xy + y^2   \notag \\
     &= x^2 - y^2
 \end{align}
-$$
+
 
