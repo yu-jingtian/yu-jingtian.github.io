@@ -5,7 +5,7 @@ author: Jingtian Yu
 use_math: true
 ---
 
-在美联储加息的背景下，已出现美债利率倒挂 (for more details, see [this post](https://yu-jingtian.github.io/yield-curve/))，可见这一轮轮加息的力度之大。在这样的环境下，房地产市场如何表现呢？
+在美联储加息的背景下，已出现美债利率倒挂 (for more details, see [this post](https://yu-jingtian.github.io/yield-curve/))，可见这一轮加息的力度之大。在这样的环境下，房地产市场如何表现呢？
 
 假设某城市，存在以下四组潜在的房屋购买者：
 - Group 1: can only afford 25% down payment;
