@@ -21,6 +21,11 @@ Then the quantum correlation between $A$ and $B$ is
 
 In an experiment, the estimated quantum correlation is
 \begin{equation\*}
-   \hat\rho_{AB} = \frac{N_{++}-N_{+-}-N_{-+}+N_{++}}/N_{total}
+   \hat\rho_{AB} = \frac{N_{++}-N_{+-}-N_{-+}+N_{++}}{N_{total}}
 \end{equation\*}
 where $N_{\cdot\cdot}$ is the observed number of specific combination of $A$ and $B$ outcomes.
+
+
+# Bell's inequality "in a nutshell"
+
+https://www.zhihu.com/question/55770425/answer/150447979
