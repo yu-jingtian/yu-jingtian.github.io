@@ -1,9 +1,11 @@
 ---
-title: "The Inverted Yield Curve（利率倒挂）"
+title: "The Inverted Yield Curve"
 date: 2023-12-10
 author: Jingtian Yu
 use_math: true
 ---
+
+inverted yield curve -- 利率倒挂
 
 In finance, an inverted yield curve is a yield curve in which short-term debt instruments (typically bonds) have a greater yield than longer term bonds [(Wikipedia)](https://en.wikipedia.org/wiki/Inverted_yield_curve).
 
