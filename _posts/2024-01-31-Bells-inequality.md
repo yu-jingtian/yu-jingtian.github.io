@@ -28,7 +28,7 @@ where $N_{\cdot\cdot}$ is the observed number of specific combination of $O_1$ a
 
 # Bell's inequality "in a nutshell"
 
-Assume hidden-variable theory [(Wikipedia)](https://en.wikipedia.org/wiki/Hidden-variable_theory) holds, assume one particle is split into two (denote as $A$ and $B$) and flying to opposite direction. Measure the spin of $A$ and $B$ on $xyz$ axes, denote as $(A_x, A_y, A_z)$ and $(B_x, B_y, B_z)$. Then since the conservation of spin on a certain axis, we have $A_\cdots+B_\cdots=0$. Futhermore, since we assume the hidden-variable theory, then we have the following 8 combinations of $(A_x, A_y, A_z, B_x, B_y, B_z)$:
+Assume hidden-variable theory [(Wikipedia)](https://en.wikipedia.org/wiki/Hidden-variable_theory) holds, assume one particle is split into two (denote as $A$ and $B$) and flying to opposite direction. Measure the spin of $A$ and $B$ on $xyz$ axes, denote as $(A_x, A_y, A_z)$ and $(B_x, B_y, B_z)$. Then since the conservation of spin on a certain axis, we have $A_i+B_i=0$. Futhermore, since we assume the hidden-variable theory, then we have the following 8 combinations of $(A_x, A_y, A_z, B_x, B_y, B_z)$:
 
 |        | Ax | Ay | Az | Bx | By | Bz |
 |--------|----|----|----|----|----|----|
@@ -40,3 +40,28 @@ Assume hidden-variable theory [(Wikipedia)](https://en.wikipedia.org/wiki/Hidden
 | case 6 | -  | +  | -  | +  | -  | +  |
 | case 7 | -  | -  | +  | +  | +  | -  |
 | case 8 | -  | -  | -  | +  | +  | +  |
+
+Assume the probability of "case $i$" is $P_i$, then by the definitoin of quantum correlation, we have
+$$
+\rho_{A_xB_y}=-P_1-P_2+P_3+P_4+P_5+P_6-P_7-P_8
+$$
+$$
+\rho_{A_xB_z}=-P_1+P_2-P_3+P_4+P_5-P_6+P_7-P_8
+$$
+$$
+\rho_{A_yB_z}=-P_1+P_2+P_3-P_4-P_5+P_6+P_7-P_8
+$$
+
+Notice that
+$$
+|\rho_{A_xB_z}-\rho_{A_yB_z}|=2|-P3+P_4+P_5-P_6|=2|(P_4+P_5)-(P_3+P_6)|\leq2(|P_4+P_5|+|P_3+P_6|)
+$$
+also notice that all $P_i$ are positive, and $\sum_iP_i=1$ then
+$$
+2(|P_4+P_5|+|P_3+P_6|)=2(P_3+P_4+P_5+P_6)=1+(-P_1-P_2+P_3+P_4+P_5+P_6-P_7-P_8)=1+\rho_{A_xB_y}
+$$
+
+In summary, we have
+$$
+|\rho_{A_xB_z}-\rho_{A_yB_z}|\leq1+\rho_{A_xB_y}
+$$
