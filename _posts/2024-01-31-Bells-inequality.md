@@ -42,26 +42,26 @@ Assume hidden-variable theory [(Wikipedia)](https://en.wikipedia.org/wiki/Hidden
 | case 8 | -  | -  | -  | +  | +  | +  |
 
 Assume the probability of "case $i$" is $P_i$, then by the definitoin of quantum correlation, we have
-$$
+\begin{equation\*}
 \rho_{A_xB_y}=-P_1-P_2+P_3+P_4+P_5+P_6-P_7-P_8
-$$
-$$
+\end{equation\*}
+\begin{equation\*}
 \rho_{A_xB_z}=-P_1+P_2-P_3+P_4+P_5-P_6+P_7-P_8
-$$
-$$
+\end{equation\*}
+\begin{equation\*}
 \rho_{A_yB_z}=-P_1+P_2+P_3-P_4-P_5+P_6+P_7-P_8
-$$
+\end{equation\*}
 
 Notice that
-$$
+\begin{equation\*}
 |\rho_{A_xB_z}-\rho_{A_yB_z}|=2|-P3+P_4+P_5-P_6|=2|(P_4+P_5)-(P_3+P_6)|\leq2(|P_4+P_5|+|P_3+P_6|)
-$$
+\end{equation\*}
 also notice that all $P_i$ are positive, and $\sum_iP_i=1$ then
-$$
+\begin{equation\*}
 2(|P_4+P_5|+|P_3+P_6|)=2(P_3+P_4+P_5+P_6)=1+(-P_1-P_2+P_3+P_4+P_5+P_6-P_7-P_8)=1+\rho_{A_xB_y}
-$$
+\end{equation\*}
 
 In summary, we have
-$$
+\begin{equation\*}
 |\rho_{A_xB_z}-\rho_{A_yB_z}|\leq1+\rho_{A_xB_y}
-$$
+\end{equation\*}
