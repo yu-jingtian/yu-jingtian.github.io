@@ -57,13 +57,12 @@ Notice that
 |\rho_{A_xB_z}-\rho_{A_yB_z}|=2|-P3+P_4+P_5-P_6|=2|(P_4+P_5)-(P_3+P_6)|\leq2(|P_4+P_5|+|P_3+P_6|)
 \end{equation\*}
 also notice that all $P_i$ are positive, and $\sum_iP_i=1$ then
-$$
-\begin{align\*}
-    2(|P_4+P_5|+|P_3+P_6|)&=2(P_3+P_4+P_5+P_6) \\
-    &=1+(-P_1-P_2+P_3+P_4+P_5+P_6-P_7-P_8) \\
-    &=1+\rho_{A_xB_y}
-\end{align\*}
-$$
+\begin{equation\*}
+2(|P_4+P_5|+|P_3+P_6|)=2(P_3+P_4+P_5+P_6)
+\end{equation\*}
+\begin{equation\*}
+=1+(-P_1-P_2+P_3+P_4+P_5+P_6-P_7-P_8)=1+\rho_{A_xB_y}
+\end{equation\*}
 
 In summary, we have
 \begin{equation\*}
