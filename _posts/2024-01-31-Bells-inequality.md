@@ -16,12 +16,12 @@ In Bell's 1964 paper, assume two outcomes $O_1$ and $O_2$, and each has two outc
 
 Then the quantum correlation between $A$ and $B$ is
 \begin{equation\*}
-   \rho_{O_1O_2} = P_{++}-P_{+-}-P_{-+}+P_{++}
+   \rho_{O_1O_2} = P_{++}-P_{+-}-P_{-+}+P_{--}
 \end{equation\*}
 
 In an experiment, the estimated quantum correlation is
 \begin{equation\*}
-   \hat\rho_{O_1O_2} = \frac{N_{++}-N_{+-}-N_{-+}+N_{++}}{N_{total}}
+   \hat\rho_{O_1O_2} = \frac{N_{++}-N_{+-}-N_{-+}+N_{--}}{N_{total}}
 \end{equation\*}
 where $N_{\cdot\cdot}$ is the observed number of specific combination of $O_1$ and $O_2$ outcomes.
 
